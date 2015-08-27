@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440F83EF1B8F8BBB0048BF2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F83EE1B8F8BBB0048BF2E /* AppDelegate.swift */; };
+		440F83F21B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 440F83F01B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodeld */; };
+		440F83F41B8F8BBB0048BF2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F83F31B8F8BBB0048BF2E /* ViewController.swift */; };
+		440F83F71B8F8BBB0048BF2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440F83F51B8F8BBB0048BF2E /* Main.storyboard */; };
+		440F83F91B8F8BBB0048BF2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440F83F81B8F8BBB0048BF2E /* Images.xcassets */; };
+		440F83FC1B8F8BBB0048BF2E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 440F83FA1B8F8BBB0048BF2E /* LaunchScreen.xib */; };
+		440F84081B8F8BBB0048BF2E /* WorkAngel_SorterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F84071B8F8BBB0048BF2E /* WorkAngel_SorterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		440F84021B8F8BBB0048BF2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440F83E11B8F8BBB0048BF2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 440F83E81B8F8BBB0048BF2E;
+			remoteInfo = "WorkAngel-Sorter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		440F83E91B8F8BBB0048BF2E /* WorkAngel-Sorter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorkAngel-Sorter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		440F83ED1B8F8BBB0048BF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440F83EE1B8F8BBB0048BF2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		440F83F11B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorkAngel_Sorter.xcdatamodel; sourceTree = "<group>"; };
+		440F83F31B8F8BBB0048BF2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		440F83F61B8F8BBB0048BF2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		440F83F81B8F8BBB0048BF2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		440F83FB1B8F8BBB0048BF2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		440F84011B8F8BBB0048BF2E /* WorkAngel-SorterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WorkAngel-SorterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		440F84061B8F8BBB0048BF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440F84071B8F8BBB0048BF2E /* WorkAngel_SorterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkAngel_SorterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		440F83E61B8F8BBB0048BF2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440F83FE1B8F8BBB0048BF2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		440F83E01B8F8BBB0048BF2E = {
+			isa = PBXGroup;
+			children = (
+				440F83EB1B8F8BBB0048BF2E /* WorkAngel-Sorter */,
+				440F84041B8F8BBB0048BF2E /* WorkAngel-SorterTests */,
+				440F83EA1B8F8BBB0048BF2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		440F83EA1B8F8BBB0048BF2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440F83E91B8F8BBB0048BF2E /* WorkAngel-Sorter.app */,
+				440F84011B8F8BBB0048BF2E /* WorkAngel-SorterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		440F83EB1B8F8BBB0048BF2E /* WorkAngel-Sorter */ = {
+			isa = PBXGroup;
+			children = (
+				440F83EE1B8F8BBB0048BF2E /* AppDelegate.swift */,
+				440F83F31B8F8BBB0048BF2E /* ViewController.swift */,
+				440F83F51B8F8BBB0048BF2E /* Main.storyboard */,
+				440F83F81B8F8BBB0048BF2E /* Images.xcassets */,
+				440F83FA1B8F8BBB0048BF2E /* LaunchScreen.xib */,
+				440F83F01B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodeld */,
+				440F83EC1B8F8BBB0048BF2E /* Supporting Files */,
+			);
+			path = "WorkAngel-Sorter";
+			sourceTree = "<group>";
+		};
+		440F83EC1B8F8BBB0048BF2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				440F83ED1B8F8BBB0048BF2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		440F84041B8F8BBB0048BF2E /* WorkAngel-SorterTests */ = {
+			isa = PBXGroup;
+			children = (
+				440F84071B8F8BBB0048BF2E /* WorkAngel_SorterTests.swift */,
+				440F84051B8F8BBB0048BF2E /* Supporting Files */,
+			);
+			path = "WorkAngel-SorterTests";
+			sourceTree = "<group>";
+		};
+		440F84051B8F8BBB0048BF2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				440F84061B8F8BBB0048BF2E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		440F83E81B8F8BBB0048BF2E /* WorkAngel-Sorter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440F840B1B8F8BBB0048BF2E /* Build configuration list for PBXNativeTarget "WorkAngel-Sorter" */;
+			buildPhases = (
+				440F83E51B8F8BBB0048BF2E /* Sources */,
+				440F83E61B8F8BBB0048BF2E /* Frameworks */,
+				440F83E71B8F8BBB0048BF2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WorkAngel-Sorter";
+			productName = "WorkAngel-Sorter";
+			productReference = 440F83E91B8F8BBB0048BF2E /* WorkAngel-Sorter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		440F84001B8F8BBB0048BF2E /* WorkAngel-SorterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440F840E1B8F8BBB0048BF2E /* Build configuration list for PBXNativeTarget "WorkAngel-SorterTests" */;
+			buildPhases = (
+				440F83FD1B8F8BBB0048BF2E /* Sources */,
+				440F83FE1B8F8BBB0048BF2E /* Frameworks */,
+				440F83FF1B8F8BBB0048BF2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				440F84031B8F8BBB0048BF2E /* PBXTargetDependency */,
+			);
+			name = "WorkAngel-SorterTests";
+			productName = "WorkAngel-SorterTests";
+			productReference = 440F84011B8F8BBB0048BF2E /* WorkAngel-SorterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		440F83E11B8F8BBB0048BF2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Vincenzo Favara (VinSoft)";
+				TargetAttributes = {
+					440F83E81B8F8BBB0048BF2E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					440F84001B8F8BBB0048BF2E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 440F83E81B8F8BBB0048BF2E;
+					};
+				};
+			};
+			buildConfigurationList = 440F83E41B8F8BBB0048BF2E /* Build configuration list for PBXProject "WorkAngel-Sorter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 440F83E01B8F8BBB0048BF2E;
+			productRefGroup = 440F83EA1B8F8BBB0048BF2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				440F83E81B8F8BBB0048BF2E /* WorkAngel-Sorter */,
+				440F84001B8F8BBB0048BF2E /* WorkAngel-SorterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		440F83E71B8F8BBB0048BF2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440F83F71B8F8BBB0048BF2E /* Main.storyboard in Resources */,
+				440F83FC1B8F8BBB0048BF2E /* LaunchScreen.xib in Resources */,
+				440F83F91B8F8BBB0048BF2E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440F83FF1B8F8BBB0048BF2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		440F83E51B8F8BBB0048BF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440F83F41B8F8BBB0048BF2E /* ViewController.swift in Sources */,
+				440F83EF1B8F8BBB0048BF2E /* AppDelegate.swift in Sources */,
+				440F83F21B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440F83FD1B8F8BBB0048BF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440F84081B8F8BBB0048BF2E /* WorkAngel_SorterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		440F84031B8F8BBB0048BF2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 440F83E81B8F8BBB0048BF2E /* WorkAngel-Sorter */;
+			targetProxy = 440F84021B8F8BBB0048BF2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		440F83F51B8F8BBB0048BF2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				440F83F61B8F8BBB0048BF2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		440F83FA1B8F8BBB0048BF2E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				440F83FB1B8F8BBB0048BF2E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		440F84091B8F8BBB0048BF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		440F840A1B8F8BBB0048BF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		440F840C1B8F8BBB0048BF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WorkAngel-Sorter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		440F840D1B8F8BBB0048BF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WorkAngel-Sorter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		440F840F1B8F8BBB0048BF2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WorkAngel-SorterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkAngel-Sorter.app/WorkAngel-Sorter";
+			};
+			name = Debug;
+		};
+		440F84101B8F8BBB0048BF2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WorkAngel-SorterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkAngel-Sorter.app/WorkAngel-Sorter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		440F83E41B8F8BBB0048BF2E /* Build configuration list for PBXProject "WorkAngel-Sorter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440F84091B8F8BBB0048BF2E /* Debug */,
+				440F840A1B8F8BBB0048BF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440F840B1B8F8BBB0048BF2E /* Build configuration list for PBXNativeTarget "WorkAngel-Sorter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440F840C1B8F8BBB0048BF2E /* Debug */,
+				440F840D1B8F8BBB0048BF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		440F840E1B8F8BBB0048BF2E /* Build configuration list for PBXNativeTarget "WorkAngel-SorterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440F840F1B8F8BBB0048BF2E /* Debug */,
+				440F84101B8F8BBB0048BF2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		440F83F01B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				440F83F11B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodel */,
+			);
+			currentVersion = 440F83F11B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodel */;
+			path = WorkAngel_Sorter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 440F83E11B8F8BBB0048BF2E /* Project object */;
+}
