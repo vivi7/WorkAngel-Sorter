@@ -82,7 +82,6 @@ class TravelModel{
         return listSorted
     }
     
-    //O(n!)
     func findNext(var list: [Travel]){
         
         //using the first element like a start trip
