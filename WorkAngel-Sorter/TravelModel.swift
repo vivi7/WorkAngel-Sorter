@@ -10,14 +10,17 @@ import Foundation
 
 class TravelModel{
     
-    /*
-    Take train 78A from Madrid to Barcelona. Sit in seat 45B.
-    Take the airport bus from Barcelona to Gerona Airport. No seat assignment.
-    From Gerona Airport, take flight SK455 to London. Gate 45B, seat 3A. Baggage
-    From London, take flight SK22 to New York JFK. Gate 22, seat 7B. Baggage will we
-    */
+    var listSorted: [Travel] = []
+    
     
     func getTravels() -> [Travel]{
+        
+        /*
+        Take train 78A from Madrid to Barcelona. Sit in seat 45B.
+        Take the airport bus from Barcelona to Gerona Airport. No seat assignment.
+        From Gerona Airport, take flight SK455 to London. Gate 45B, seat 3A. Baggage
+        From London, take flight SK22 to New York JFK. Gate 22, seat 7B. Baggage will we
+        */
         
         var travels : [Travel] = []
         
@@ -29,6 +32,11 @@ class TravelModel{
         
         travels.append(Travel(myCityFrom: "London", myCityTo: "New York JFK", myTypeTrasport: "Flight SK22", myPlace: "7B"))
         
+        
+        travels.append(Travel(myCityFrom: "New York JFK", myCityTo: "Roma", myTypeTrasport: "Flight Ali87", myPlace: "H24"))
+        travels.append(Travel(myCityFrom: "Roma", myCityTo: "Bangkok", myTypeTrasport: "Flight RY34", myPlace: "9B"))
+        travels.append(Travel(myCityFrom: "Bangkok", myCityTo: "Milano", myTypeTrasport: "Cycle BMX", myPlace: ""))
+        travels.append(Travel(myCityFrom: "Milano", myCityTo: "Hongkong", myTypeTrasport: "Boat Titanic", myPlace: "13"))
         return shuffleTravels(travels)
     }
     
@@ -45,16 +53,50 @@ class TravelModel{
     func sortTravels(var list: [Travel]) -> [Travel] {
         START_MEASURE_EXECUTION()
 /*
-        //TODO: sort array
-
         cd
         bc
         de
         ab
 */
         
+        var dict : Dictionary<String,String> = [:]
+        
+        // O(n) - prepare dictionary and set value
+        for h in 0..<list.count {
+            dict[list[h].cityFrom] = list[h].cityTo
+        }
+        
+        // O(n) - determinate the first elemnt
+        for j in 0..<list.count {
+            
+            //enter only once
+            if !(Set(dict.values.array).contains(list[j].cityFrom)){
+                println("First is: From " + list[j].cityFrom + " To " + list[j].cityTo + " with index \(j) \n")
+                listSorted.append(list.removeAtIndex(j))
+                findNext(list)
+                break
+            }
+        }
+        
         STOP_MEASURE_EXECUTION()
-        return list
+        return listSorted
+    }
+    
+    //O(n!)
+    func findNext(var list: [Travel]){
+        
+        //using the first element like a start trip
+        for k in 0..<list.count {
+            if(listSorted.last!.cityTo == list[k].cityFrom){
+                println("Last in sorted list: " + listSorted.last!.cityTo)
+                println("Next is: From " + list[k].cityFrom + " To " + list[k].cityTo + " with index \(k) \n")
+                listSorted.append(list.removeAtIndex(k))
+                findNext(list)
+                
+                //I find it so break
+                break
+            }
+        }
     }
     
     
