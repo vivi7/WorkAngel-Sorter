@@ -2,4 +2,54 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorkAngel-Sorter/Travel.swift"
+            timestampString = "462710765.22175"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "encodeWithCoder(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorkAngel_Sorter.Travel.encodeWithCoder (WorkAngel_Sorter.Travel)(ObjectiveC.NSCoder) -&gt; ()"
+                  moduleName = "WorkAngel-Sorter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivi/Documents/WS_CODE/W_S_IOS/WorkAngel-Sorter/WorkAngel-Sorter/Travel.swift"
+                  timestampString = "462713212.166803"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "564">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorkAngel_SorterTests.Travel.encodeWithCoder (WorkAngel_SorterTests.Travel)(ObjectiveC.NSCoder) -&gt; ()"
+                  moduleName = "WorkAngel-SorterTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivi/Documents/WS_CODE/W_S_IOS/WorkAngel-Sorter/WorkAngel-Sorter/Travel.swift"
+                  timestampString = "462713212.736768"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "564">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

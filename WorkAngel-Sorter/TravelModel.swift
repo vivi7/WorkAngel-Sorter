@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 Vincenzo Favara (VinSoft). All rights reserved.
 //
 
+
 import Foundation
 
 class TravelModel{
@@ -41,17 +42,14 @@ class TravelModel{
     }
     
     func shuffleTravels(var list: [Travel]) -> [Travel] {
-        START_MEASURE_EXECUTION()
         for i in 0..<list.count {
             let j = Int(arc4random_uniform(UInt32(list.count - i))) + i
             list.insert(list.removeAtIndex(j), atIndex: i)
         }
-        STOP_MEASURE_EXECUTION()
         return list
     }
     
     func sortTravels(var list: [Travel]) -> [Travel] {
-        START_MEASURE_EXECUTION()
 /*
         cd
         bc
@@ -77,8 +75,6 @@ class TravelModel{
                 break
             }
         }
-        
-        STOP_MEASURE_EXECUTION()
         return listSorted
     }
     
@@ -96,15 +92,6 @@ class TravelModel{
                 break
             }
         }
-    }
-    
-    
-    // MARK: Measure time execution
-    
-    var startTime = NSDate()
-    func START_MEASURE_EXECUTION(){ startTime =  NSDate() }
-    func STOP_MEASURE_EXECUTION(function: String = __FUNCTION__, line: Int = __LINE__){
-        println("\(function) Time: \(startTime.timeIntervalSinceNow) Line:\(line)")
     }
     
 }

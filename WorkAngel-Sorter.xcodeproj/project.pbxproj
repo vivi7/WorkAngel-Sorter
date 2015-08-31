@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		440F83EF1B8F8BBB0048BF2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F83EE1B8F8BBB0048BF2E /* AppDelegate.swift */; };
-		440F83F21B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 440F83F01B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodeld */; };
 		440F83F41B8F8BBB0048BF2E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F83F31B8F8BBB0048BF2E /* ListViewController.swift */; };
 		440F83F71B8F8BBB0048BF2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440F83F51B8F8BBB0048BF2E /* Main.storyboard */; };
 		440F83F91B8F8BBB0048BF2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440F83F81B8F8BBB0048BF2E /* Images.xcassets */; };
@@ -17,6 +16,8 @@
 		440F84121B8FE6F80048BF2E /* Travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F84111B8FE6F80048BF2E /* Travel.swift */; };
 		442DC93D1B90C6A70014EDBE /* ListSortedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DC93C1B90C6A70014EDBE /* ListSortedViewController.swift */; };
 		442DC93F1B90C8730014EDBE /* TravelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DC93E1B90C8730014EDBE /* TravelModel.swift */; };
+		446753391B946909000959F2 /* Travel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440F84111B8FE6F80048BF2E /* Travel.swift */; };
+		4467533A1B946909000959F2 /* TravelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442DC93E1B90C8730014EDBE /* TravelModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +34,6 @@
 		440F83E91B8F8BBB0048BF2E /* WorkAngel-Sorter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorkAngel-Sorter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		440F83ED1B8F8BBB0048BF2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		440F83EE1B8F8BBB0048BF2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		440F83F11B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WorkAngel_Sorter.xcdatamodel; sourceTree = "<group>"; };
 		440F83F31B8F8BBB0048BF2E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		440F83F61B8F8BBB0048BF2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		440F83F81B8F8BBB0048BF2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -93,7 +93,6 @@
 				440F83F51B8F8BBB0048BF2E /* Main.storyboard */,
 				440F83F81B8F8BBB0048BF2E /* Images.xcassets */,
 				440F83FA1B8F8BBB0048BF2E /* LaunchScreen.xib */,
-				440F83F01B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodeld */,
 				440F83EC1B8F8BBB0048BF2E /* Supporting Files */,
 			);
 			path = "WorkAngel-Sorter";
@@ -229,7 +228,6 @@
 				440F84121B8FE6F80048BF2E /* Travel.swift in Sources */,
 				442DC93D1B90C6A70014EDBE /* ListSortedViewController.swift in Sources */,
 				440F83EF1B8F8BBB0048BF2E /* AppDelegate.swift in Sources */,
-				440F83F21B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +235,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				446753391B946909000959F2 /* Travel.swift in Sources */,
+				4467533A1B946909000959F2 /* TravelModel.swift in Sources */,
 				440F84081B8F8BBB0048BF2E /* WorkAngel_SorterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = "WorkAngel-Sorter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEFINES_MODULE = NO;
 				INFOPLIST_FILE = "WorkAngel-Sorter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,6 +380,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEFINES_MODULE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -397,6 +400,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEFINES_MODULE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -439,19 +443,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		440F83F01B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				440F83F11B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodel */,
-			);
-			currentVersion = 440F83F11B8F8BBB0048BF2E /* WorkAngel_Sorter.xcdatamodel */;
-			path = WorkAngel_Sorter.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 440F83E11B8F8BBB0048BF2E /* Project object */;
 }
