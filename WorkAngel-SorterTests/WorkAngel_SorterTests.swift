@@ -21,16 +21,13 @@ class WorkAngel_SorterTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
+    func testSortTravels(){
+        let travelModel : TravelModel = TravelModel()
+        let travels : [Travel] = travelModel.getTravels()
+        
         self.measureBlock() {
-            // Put the code you want to measure the time of here.
+            travelModel.sortTravels(travels)
         }
+        XCTAssert(true, "Passed testSortTravels")
     }
-    
 }
