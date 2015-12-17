@@ -167,6 +167,7 @@
 		440F83E11B8F8BBB0048BF2E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Vincenzo Favara (VinSoft)";
 				TargetAttributes = {

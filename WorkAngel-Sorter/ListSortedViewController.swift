@@ -29,9 +29,9 @@ class ListSortedViewController: UIViewController, UITableViewDataSource {
     // MARK: - DATASOURCE:
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var travel : Travel = travels[indexPath.row]
+        let travel : Travel = travels[indexPath.row]
         
-        var cell = self.tableView.dequeueReusableCellWithIdentifier("cellSorted") as! UITableViewCell
+        let cell = self.tableView.dequeueReusableCellWithIdentifier("cellSorted")!
         
         cell.textLabel!.text = travel.cityFrom + " > " + travel.cityTo
         cell.detailTextLabel?.text = travel.typeTrasport + " " + travel.place

@@ -37,9 +37,9 @@ class ListViewController: UIViewController, UITableViewDataSource {
     // MARK: - DATASOURCE:
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var travel : Travel = travels[indexPath.row]
+        let travel : Travel = travels[indexPath.row]
         
-        var cell = self.tableView.dequeueReusableCellWithIdentifier("cell") as! UITableViewCell
+        let cell = self.tableView.dequeueReusableCellWithIdentifier("cell")!
         
         
         cell.textLabel!.text = travel.cityFrom + " > " + travel.cityTo
